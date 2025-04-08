@@ -15,12 +15,13 @@ import time
 inputFile  = str(raw_input("Input File: "))
 outputFile = str(raw_input("Name of file to save results: "))
 queryType = str(raw_input('What are you searching on? ISSN, ISBN, OCN, or Title: '))
-key = 'ahtH1Z7m1WW97DwsXtCekXe5EKqyyKwT0cikOdeVKhXcyofx6MKS3ISnzMrIFW4NxOKvZG1nF5mAnzuq'
-lmKey = 'q83oyWx4xXLNytlXZA30EfYY7vC1nR3RuiBdcam7cKU6dRfIkljyicOtcVIUxIRZc3NyxozSjw7B1Hra'
-secret = 'Ap5mhlKXxazHtgmkZLWEPF6imBB0CoQa'
-principal_id = '7cd1d2ae-06fc-4172-9c91-cfb06f3d4e87'
-principal_idns = 'urn:mace:oclc:idm:umaryland'
-authenticating_institution_id = '1284'
+#input values below
+key =
+lmKey = 
+secret = 
+principal_id = 
+principal_idns = 
+authenticating_institution_id = 
 ns = {'kb' : 'http://worldcat.org/kb', 'atom' : 'http://www.w3.org/2005/Atom', 'os' : 'http://a9.com/-/spec/opensearch/1.1/', 'df' : 'http://worldcat.org/xmlschemas/LicenseManager', 'gd' : 'http://schemas.google.com/g/2005'}
 collectionID = str(raw_input("To search in a particular collection enter its ID. If you want to search a list of collections, type 'list'. Type 'no' otherwise: "))
 fieldNames = ["publication_title", "print_identifier", "online_identifier", "date_first_issue_online", "num_first_vol_online", "num_first_issue_online", "date_last_issue_online", "num_last_vol_online", "num_last_issue_online", "title_url", "first_author", "title_id", "embargo_info", "coverage_depth",	"coverage_notes", "publisher_name", "location", "title_notes", "staff_notes", "vendor_id", "oclc_collection_name", "oclc_collection_id", "oclc_entry_id", "oclc_linkscheme", "oclc_number",	"ACTION"]
